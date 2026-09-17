@@ -28,7 +28,7 @@ Copy `.env.example` to `.env` and supply:
 - `PUBLIC_JERRY_LINKEDIN` and `PUBLIC_ELLIOT_LINKEDIN`: optional overrides for the supplied profile URLs already included in the About page.
 - `PUBLIC_JERRY_PHOTO` and `PUBLIC_ELLIOT_PHOTO`: photo URLs. Local images can go in `public/`; include the `/northstar.github.io/` base in their URLs.
 
-Rebuild after changing these values. Abstract artwork marks the photo positions until photographs are provided. LinkedIn links are rendered only when configured. Every tool has a monochrome logo. SpaceClaim uses the Ansys company mark and UniSim uses the Honeywell company mark. The technical illustration is decorative SVG, not a photograph of a real engineering project.
+Rebuild after changing these values. The supplied LinkedIn profile photos are stored locally in `public/team/`. Elliot’s available photo is 96 × 96 pixels; replace it with a higher-resolution original when available. LinkedIn links are rendered only when configured. Every tool has a monochrome logo. SpaceClaim uses the Ansys company mark and UniSim uses the Honeywell company mark. The technical illustration is decorative SVG, not a photograph of a real engineering project.
 
 Editorial bracket notes and the sentence “I need to rephrase all of this” are excluded from displayed content. The four supplied service statements are preserved verbatim, since the request says not to generate additional copy.
 

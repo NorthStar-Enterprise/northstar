@@ -43,3 +43,15 @@ footer { align-items: center; }
 /* Square framing preserves the full LinkedIn headshots. */
 .about .portrait { aspect-ratio: 1; }
 .about .portrait img { object-position: center top; }
+
+/* Golden Bridge line artwork, framed clear of the hero copy. */
+.engineering-art { width: 48%; right: 1%; top: 145px; transform: none; }
+.engineering-art img { display: block; width: 100%; height: auto; mask-image: linear-gradient(to right, transparent, black 4%, black 96%, transparent); }
+@media (max-width: 850px) {
+  .hero-copy { width: 100%; }
+  .engineering-art { position: relative; width: 100%; right: auto; top: auto; margin: 36px 0 0; opacity: 1; }
+  .hero-bottom { margin-top: 32px; }
+}
+@media (max-width: 600px) {
+  .engineering-art { width: 112%; margin-left: -6%; }
+}

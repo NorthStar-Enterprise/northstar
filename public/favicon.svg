@@ -1,1 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><rect width="48" height="48" rx="10" fill="#0D0221"/><path d="m24 4 4 16 16 4-16 4-4 16-4-16-16-4 16-4Z" fill="#C2E7D9"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+<defs><radialGradient id="glow"><stop stop-color="#A6CFD5" stop-opacity=".55"/><stop offset="1" stop-color="#26408B" stop-opacity="0"/></radialGradient></defs>
+<g fill="url(#glow)"><circle cx="14" cy="15" r="12"/><circle cx="44" cy="27" r="15"/><circle cx="55" cy="43" r="12"/><circle cx="68" cy="68" r="11"/><circle cx="62" cy="91" r="12"/><circle cx="96" cy="109" r="12"/><circle cx="114" cy="87" r="14"/></g>
+<path d="m14 15 30 12 11 16 13 25-6 23 34 18 18-22-46-19" stroke="#A6CFD5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<g fill="#C2E7D9"><circle cx="14" cy="15" r="2.7"/><circle cx="44" cy="27" r="3.7"/><circle cx="55" cy="43" r="2.8"/><circle cx="68" cy="68" r="2"/><circle cx="62" cy="91" r="2"/><circle cx="96" cy="109" r="2"/><circle cx="114" cy="87" r="3.7"/></g></svg>

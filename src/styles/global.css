@@ -14,3 +14,16 @@
   outline: 2px solid var(--ice);
   outline-offset: 2px;
 }
+
+.brand-mark { width: 64px; height: 64px; flex-shrink: 0; }
+.footer-brand { display: flex; align-items: center; gap: 12px; }
+.footer-brand img, .section-mark { flex-shrink: 0; }
+.section-mark { width: 56px; height: 56px; }
+.portrait .portrait-mark { width: 60%; height: 60%; object-fit: contain; }
+footer { align-items: center; }
+@media (max-width: 600px) {
+  .brand-mark { width: 52px; height: 52px; }
+  .hero-bottom .section-mark { width: 36px; height: 36px; }
+  .footer-brand { gap: 8px; }
+  .footer-brand img { width: 30px; height: 30px; }
+}

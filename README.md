@@ -11,14 +11,14 @@ npm ci
 npm run dev
 ```
 
-Open http://localhost:4321/northstar.github.io/.
+Open http://localhost:4321/northstar/.
 
 ```sh
 npm run build
 npm run preview
 ```
 
-The static site is generated in `docs/`. The configured GitHub Pages URL is https://northstar-enterprise.github.io/northstar.github.io/ because this repository name differs from the organization's account name. Update `site` and `base` in `astro.config.mjs` if using a custom domain.
+The static site is generated in `docs/`. The configured GitHub Pages URL is https://northstar-enterprise.github.io/northstar/ because this repository name differs from the organization's account name. Update `site` and `base` in `astro.config.mjs` if using a custom domain.
 
 ## Complete the supplied content
 
@@ -26,7 +26,7 @@ Copy `.env.example` to `.env` and supply:
 
 - `PUBLIC_CONTACT_ENDPOINT`: an HTTPS form handler that accepts POST fields `name`, `email`, `company`, `topic`, and `details`. The submit button is deliberately disabled until a real handler is configured. No submissions are saved or sent by this static site itself.
 - `PUBLIC_JERRY_LINKEDIN` and `PUBLIC_ELLIOT_LINKEDIN`: optional overrides for the supplied profile URLs already included in the About page.
-- `PUBLIC_JERRY_PHOTO` and `PUBLIC_ELLIOT_PHOTO`: photo URLs. Local images can go in `public/`; include the `/northstar.github.io/` base in their URLs.
+- `PUBLIC_JERRY_PHOTO` and `PUBLIC_ELLIOT_PHOTO`: photo URLs. Local images can go in `public/`; include the `/northstar/` base in their URLs.
 
 Rebuild after changing these values. The supplied LinkedIn profile photos are stored locally in `public/team/`. Elliot’s available photo is 96 × 96 pixels; replace it with a higher-resolution original when available. LinkedIn links are rendered only when configured. Every tool has a monochrome logo. SpaceClaim uses the Ansys company mark and UniSim uses the Honeywell company mark. The technical illustration is decorative SVG, not a photograph of a real engineering project.
 

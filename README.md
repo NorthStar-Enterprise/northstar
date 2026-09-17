@@ -18,7 +18,7 @@ npm run build
 npm run preview
 ```
 
-The static site is generated in `dist/`. The configured GitHub Pages URL is https://northstar-enterprise.github.io/northstar.github.io/ because this repository name differs from the organization's account name. Update `site` and `base` in `astro.config.mjs` if using a custom domain.
+The static site is generated in `docs/`. The configured GitHub Pages URL is https://northstar-enterprise.github.io/northstar.github.io/ because this repository name differs from the organization's account name. Update `site` and `base` in `astro.config.mjs` if using a custom domain.
 
 ## Complete the supplied content
 
@@ -31,3 +31,9 @@ Copy `.env.example` to `.env` and supply:
 Rebuild after changing these values. Abstract artwork marks the photo positions until photographs are provided. LinkedIn links are rendered only when configured. Tools with available Simple Icons use their brand marks; the remaining tools use their supplied names pending official logo assets. The technical illustration is decorative SVG, not a photograph of a real engineering project.
 
 Editorial bracket notes and the sentence “I need to rephrase all of this” are excluded from displayed content. The four supplied service statements are preserved verbatim, since the request says not to generate additional copy.
+
+## GitHub Pages
+
+The `docs/` folder contains ready-to-serve HTML, CSS, and SVG files. No Node.js server is required on GitHub Pages. In repository Settings → Pages, select **Deploy from a branch**, branch **main**, folder **/docs**, and Save. The `.nojekyll` file preserves Astro’s `_astro` asset directory.
+
+After changing the Astro source or public environment values, run `npm run build` and commit the updated `docs/` files together with the source.

@@ -55,3 +55,5 @@ footer { align-items: center; }
 @media (max-width: 600px) {
   .engineering-art { width: 112%; margin-left: -6%; }
 }
+
+.about .person:nth-child(2) .portrait img { object-position: center center; }

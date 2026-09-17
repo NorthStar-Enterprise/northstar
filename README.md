@@ -28,7 +28,7 @@ Copy `.env.example` to `.env` and supply:
 - `PUBLIC_JERRY_LINKEDIN` and `PUBLIC_ELLIOT_LINKEDIN`: actual profile URLs.
 - `PUBLIC_JERRY_PHOTO` and `PUBLIC_ELLIOT_PHOTO`: photo URLs. Local images can go in `public/`; include the `/northstar.github.io/` base in their URLs.
 
-Rebuild after changing these values. Abstract artwork marks the photo positions until photographs are provided. LinkedIn links are rendered only when configured. Tools with available Simple Icons use their brand marks; the remaining tools use their supplied names pending official logo assets. The technical illustration is decorative SVG, not a photograph of a real engineering project.
+Rebuild after changing these values. Abstract artwork marks the photo positions until photographs are provided. LinkedIn links are rendered only when configured. Every tool has a monochrome logo. SpaceClaim uses the Ansys company mark and UniSim uses the Honeywell company mark. The technical illustration is decorative SVG, not a photograph of a real engineering project.
 
 Editorial bracket notes and the sentence “I need to rephrase all of this” are excluded from displayed content. The four supplied service statements are preserved verbatim, since the request says not to generate additional copy.
 
@@ -37,3 +37,12 @@ Editorial bracket notes and the sentence “I need to rephrase all of this” ar
 The `docs/` folder contains ready-to-serve HTML, CSS, and SVG files. No Node.js server is required on GitHub Pages. In repository Settings → Pages, select **Deploy from a branch**, branch **main**, folder **/docs**, and Save. The `.nojekyll` file preserves Astro’s `_astro` asset directory.
 
 After changing the Astro source or public environment values, run `npm run build` and commit the updated `docs/` files together with the source.
+
+## Additional logo sources
+
+- MATLAB and Java: https://github.com/devicons/devicon (MIT).
+- Onshape: https://github.com/homarr-labs/dashboard-icons (logo rights belong to the respective brand).
+- Simulink: https://commons.wikimedia.org/wiki/File:Simulink_Logo_(non-wordmark).png
+- Honeywell: https://commons.wikimedia.org/wiki/File:Honeywell_logo.svg
+
+Logo files retain their source artwork; CSS alpha masks display them in the site’s light-blue color. Brand marks identify the listed tools.

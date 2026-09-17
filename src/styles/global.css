@@ -27,3 +27,15 @@ footer { align-items: center; }
   .footer-brand { gap: 8px; }
   .footer-brand img { width: 30px; height: 30px; }
 }
+
+.tool-logo {
+  display: block;
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
+  background-color: var(--ice);
+  -webkit-mask: var(--logo-url) center / contain no-repeat;
+  mask: var(--logo-url) center / contain no-repeat;
+}
+.tool-logo-wide { width: 68px; }
+.tool > span:last-child { font-size: 11px; font-weight: 400; }
